@@ -271,6 +271,7 @@ class GitCardWidget extends StatelessWidget {
                                           ),
                                         )),
                                     const Expanded(
+
                                       child: Text(
                                         'الحصول علي\n الموافقة',
                                         style: TextStyle(
