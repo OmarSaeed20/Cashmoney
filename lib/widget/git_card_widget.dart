@@ -114,7 +114,7 @@ class GitCardWidget extends StatelessWidget {
                                 width: 40,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
-                                  color: Colors.green,
+                                  color: Color(0xFF4CAF50),
                                 ),
                                 child: Container(
                                   padding: const EdgeInsets.all(5),
@@ -195,87 +195,145 @@ class GitCardWidget extends StatelessWidget {
                     style: TextStyle(color: Colors.white, fontSize: 20),
                   ),
                   Expanded(
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Container(
-                          height: 100,
-                          width: 100,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Expanded(
-                            child: Padding(
-                              padding: const EdgeInsets.all(9.0),
-                              child: Column(
-                                children: [
-                                  Container(
-                                      height: 40,
-                                      width: 40,
-                                      child: Container(
-                                        padding: const EdgeInsets.all(5),
-                                        child: Image.asset(
-                                          'assets/file 0.png',
-                                        ),
-                                      )),
-                                  const Text(
-                                    'ادخل الملف\nالشخصى',
-                                  ),
-                                ],
-                              ),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 25),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Container(
+                            height: 100,
+                            width: 75,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
                             ),
-                          ),
-                        ),
-
-                        SizedBox(
-                          height: 65,
-                          width: 60,
-                          child: Expanded(
-                            child: Padding(
-                              padding: const EdgeInsets.all(9.0),
-                              child: Container(
-                                  height: 40,
-                                  width: 40,
-                                  child: Container(
-                                    padding: const EdgeInsets.all(5),
-                                    child: Image.asset(
-                                      'assets/arrow-right 1.png',
-                                      color: const Color(0xEFE57C30),
+                            child: Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.all(9.0),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                        height: 35,
+                                        width: 35,
+                                        child: Container(
+                                          padding: const EdgeInsets.all(5),
+                                          child: Image.asset(
+                                            'assets/user 0.png',
+                                          ),
+                                        )),
+                                    const Expanded(
+                                      child: Text(
+                                        'ادخل الملف\nالشخصى',
+                                        style: TextStyle(
+                                            fontSize: 13, color: Colors.white),
+                                      ),
                                     ),
-                                  )),
-                            ),
-                          ),
-                        ),
-                        Container(
-                          height: 100,
-                          width: 100,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10),
-                          ),
-                          child: Expanded(
-                            child: Padding(
-                              padding: const EdgeInsets.all(9.0),
-                              child: Column(
-                                children: [
-                                  Container(
-                                      height: 40,
-                                      width: 40,
-                                      child: Container(
-                                        padding: const EdgeInsets.all(5),
-                                        child: Image.asset(
-                                          'assets/comment 2.png',
-                                        ),
-                                      )),
-                                  const Text(
-                                    'ادخل الملف\nالشخصى',
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                        // Image.asset('assets/rocket 0.png'),
-                      ],
+                          SizedBox(
+                            child: Expanded(
+                              child: Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(vertical: 5),
+                                child: Container(
+                                    height: 40,
+                                    width: 35,
+                                    child: Container(
+                                      padding: const EdgeInsets.all(5),
+                                      child: Image.asset(
+                                        'assets/arrow-right 1.png',
+                                        color: const Color(0xEFE57C30),
+                                      ),
+                                    )),
+                              ),
+                            ),
+                          ),
+                          Container(
+                            height: 100,
+                            width: 75,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.all(9.0),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                        height: 35,
+                                        width: 35,
+                                        child: Container(
+                                          padding: const EdgeInsets.all(5),
+                                          child: Image.asset(
+                                            'assets/comment 2.png',
+                                          ),
+                                        )),
+                                    const Expanded(
+                                      child: Text(
+                                        'الحصول علي\n الموافقة',
+                                        style: TextStyle(
+                                            fontSize: 13, color: Colors.white),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            child: Expanded(
+                              child: Padding(
+                                padding:
+                                    const EdgeInsets.symmetric(vertical: 5),
+                                child: Container(
+                                    height: 40,
+                                    width: 35,
+                                    child: Container(
+                                      padding: const EdgeInsets.all(5),
+                                      child: Image.asset(
+                                        'assets/arrow-right 1.png',
+                                        color: const Color(0xEFE57C30),
+                                      ),
+                                    )),
+                              ),
+                            ),
+                          ),
+                          Container(
+                            height: 100,
+                            width: 75,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.all(9.0),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                        height: 35,
+                                        width: 35,
+                                        child: Container(
+                                          padding: const EdgeInsets.all(5),
+                                          child: Image.asset(
+                                            'assets/wallet 1.png',
+                                          ),
+                                        )),
+                                    const Expanded(
+                                      child: Text(
+                                        'تحصيل النقود',
+                                        style: TextStyle(
+                                            fontSize: 13, color: Colors.white),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
