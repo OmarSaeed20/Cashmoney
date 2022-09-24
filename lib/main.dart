@@ -1,4 +1,4 @@
-import 'package:cashmoney/screens/git_card_screen.dart';
+import 'package:cashmoney/screens/loan_details.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GitCardScreen(),
+      home: const LoanDetails(),
     );
   }
 }
